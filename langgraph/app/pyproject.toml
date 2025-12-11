@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langgraph"
+version = "0.1.0"
+description = ""
+authors = ["afzalfaizi <afzaalm993@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = {extras = ["standard"], version = "^0.32.1"}
+langgraph = "^0.2.56"
+fastapi = "^0.115.6"
+langchain-google-genai = "^2.0.6"
+langchain-core = "^0.3.22"
+dependencies = "^7.7.1"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
